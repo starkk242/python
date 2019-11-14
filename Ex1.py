@@ -1,3 +1,4 @@
+#values of the variable
 cars = 100
 space_in_car=4.0
 drivers = 30
@@ -7,6 +8,8 @@ cars_driven = driven
 carpool_capacity = cars_driven * space_in_car
 average_passsangers_per_car = passangers/cars_driven
 
+#printing the values of the variable without using %var
+#just by writing the var name in the location to be printed 
 print "there are",cars,"cars availabe"
 print"There are only", drivers,"drivers available"
 print"There will be ",cars_not_driven,"not driven"
