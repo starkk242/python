@@ -21,7 +21,7 @@ print "Does the output file exist? %r" %exists(file2)
 print "Ready,hint Enter to contiue, Ctrl+c to exit"
 raw_input()
 
-#opening second file and writing data in the second file 
+#opening second file in wirte mode and writing data in the second file 
 out_file = open(file2,'w')
 out_file.write(indata)
 
