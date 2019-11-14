@@ -1,3 +1,4 @@
+#similar to Ex10.py
 from sys import argv
 script , user_name = argv
 prompt = '> '
