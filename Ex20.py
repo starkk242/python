@@ -33,3 +33,31 @@ def print_first_and_last_sorted(sentence):
 	word = sort_sentence(sentence)
 	print_first_word(words)
 	print_last_word(words)
+	
+	
+'''
+#Way to execute this program is to import the program in, another program this is kind of an include file
+>>> import ex25
+ >>> sentence = "All good things come to those who wait."
+ >>> words = ex25.break_words(sentence)
+ >>> words
+ ['All', 'good', 'things', 'come', 'to', 'those', 'who', 'wait.']
+ >>> sorted_words = ex25.sort_words(words)
+ >>> sorted_words
+ ['All', 'come', 'good', 'things', 'those', 'to', 'wait.', 'who']
+ >>> ex25.print_first_word(words)
+ All
+ >>> ex25.print_last_word(words)
+ wait.
+ >>> wrods
+ Traceback (most recent call last):
+ File "<stdin>", line 1, in <module>
+ NameError: name 'wrods' is not defined
+ >>> words
+ ['good', 'things', 'come', 'to', 'those', 'who']
+ >>> ex25.print_first_word(sorted_words)
+ All
+ >>> ex25.print_last_word(sorted_words)
+ who
+ >>> sorted_words
+'''
